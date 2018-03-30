@@ -6,25 +6,25 @@ package TestApp;
 public class Calculator {
     private double ans;
 
-/** calculating value on calculator**/
+/**** calculating value on calculator****/
 
     public double calculateValue(char operator, double operand1, double operand2){
 
     switch(operator){
         case '+':
-            ans = operand1 + operand2; //addition
+            ans = operand1 + operand2; //addition//
             break;
         case '-':
-            ans = operand1 - operand2; //substraction
+            ans = operand1 - operand2; //substraction//
             break;
         case '*':
-            ans = operand1 * operand2; //multiplication
+            ans = operand1 * operand2; //multiplication//
             break;
         case '/':
-            ans = operand1 / operand2; //division
+            ans = operand1 / operand2; //division//
             break;
     }
-    return ans; //returning answer
+    return ans; //returning answer//
 }
 
 }
