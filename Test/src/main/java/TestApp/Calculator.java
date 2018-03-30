@@ -10,16 +10,16 @@ public class Calculator {
 
     switch(operator){
         case '+':
-            ans = operand1 + operand2;
+            ans = operand1 + operand2; // addition
             break;
         case '-':
-            ans = operand1 - operand2;
+            ans = operand1 - operand2; // substraction
             break;
         case '*':
-            ans = operand1 * operand2;
+            ans = operand1 * operand2; // multiplication
             break;
         case '/':
-            ans = operand1 / operand2;
+            ans = operand1 / operand2; // division
             break;
     }
     return ans;
