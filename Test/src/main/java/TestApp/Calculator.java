@@ -4,7 +4,7 @@ package TestApp;
  * Created by udara on 3/28/18.
  */
 public class Calculator {
-    private double ans;
+    private double answer; 
 
 /**** calculating value on calculator****/
 
@@ -12,6 +12,7 @@ public class Calculator {
 
     switch(operator){
         case '+':
+
             ans = operand1 + operand2; //addition// +
             break;
         case '-':
@@ -25,6 +26,21 @@ public class Calculator {
             break;
     }
     return ans; //returning answer//
+
+            answer = operand1 + operand2; //addition
+            break;
+        case '-':
+            answer = operand1 - operand2; //substraction
+            break;
+        case '*':
+            answer = operand1 * operand2; //multiplication
+            break;
+        case '/':
+            answer = operand1 / operand2; //division
+            break;
+    }
+    return answer;
+
 }
 
 }
